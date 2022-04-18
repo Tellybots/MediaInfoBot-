@@ -1,0 +1,48 @@
+{
+    "name": "Telegram Media Info Bot",
+    "description": "A Most Powerful Telegram Media Info Bot by @DKBOTZ",
+    "keywords": [
+        "telegram",
+        "files",
+        "rename",
+        "bot"
+    ],
+    "repository": "https://github.com/DKBOTZHELP/Video-info-Bot",
+    "website": "https://t.me/DKBOTZ",
+    "success_url": "https://t.me/DKBOTZ",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+        },
+        "BOT_TOKEN": {
+            "description": "Get this from @BotFather XD"
+        },
+        "SUPPORT_GROUP": {
+            "description": "Enter Your Group Username Without @. Ex :- DK_BOTZ",
+            "required": false,
+            "value": "DK_BOTZ"
+        },
+        "BOT_USERNAME": {
+            "description": "Enter Your Bot Username Without @. Ex :- MediaInfosBot",
+            "required": false,
+            "value": "MediaInfosBot"
+        }
+    },
+    "buildpacks": [ 
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }, 
+        { 
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
