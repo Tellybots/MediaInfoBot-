@@ -1,1 +1,1 @@
-worker: python3 media.py
+worker: python3 configs.py
