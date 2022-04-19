@@ -17,7 +17,7 @@ async def start_(client: Client, message: Message):
 
 **Use Me To Generate Infomation Of Media Like Photo, Videos And Document.**
 
-**I Also Work in Group**
+**I Can Also Work in Group**
 
 **Read This For More infomation 👉 **""",
         reply_markup=InlineKeyboardMarkup(
