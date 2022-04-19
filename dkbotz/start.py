@@ -11,7 +11,7 @@ from dkbotz.command import command
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""**Hello {message.from_user.mention}**
+        f"""**👋 Hey {message.from_user.mention} ♡**
 
 **I Am Most Powerful Media Info Bot.**
 
@@ -27,9 +27,9 @@ async def start_(client: Client, message: Message):
             InlineKeyboardButton('📢 Bot Channel', url='http://t.me/DKBOTZ'),
             InlineKeyboardButton('💼 Support Group', url=f'http://t.me/{Config.SUPPORT_GROUP}')
             ],[
-            InlineKeyboardButton('🌐 Source Code 🌐', url='https://github.com/DKBOTZHELP/Media-Info-Bot')
+            InlineKeyboardButton('🌐 Source Code 🌐', url='https://github.com/Tellybots/Media-Info-Bot')
             ],[
-            InlineKeyboardButton('⌦ Close The Menu ⌫', callback_data='close_data')
+            InlineKeyboardButton('⌦ Close Me ⌫', callback_data='close_data')
         ]]
         ),
      disable_web_page_preview=True
