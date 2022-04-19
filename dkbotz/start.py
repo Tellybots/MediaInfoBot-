@@ -29,7 +29,7 @@ async def start_(client: Client, message: Message):
             ],[
             InlineKeyboardButton('🌐 Source Code 🌐', url='https://github.com/Tellybots/Media-Info-Bot')
             ],[
-            InlineKeyboardButton('⌦ Close Me ⌫', callback_data='close_data')
+            InlineKeyboardButton('⌦ Close The Menu ⌫', callback_data='close_data')
         ]]
         ),
      disable_web_page_preview=True
