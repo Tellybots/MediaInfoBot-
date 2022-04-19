@@ -39,7 +39,7 @@
 ## Deploy To Heroku 🗳
 Press the Deploy Button to Get Your Own Bot. 👇
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DKBOTZHELP/Media-Info-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Tellybots/MediaInfoBot-)
 
 
 ## Coming Soon Features
