@@ -1,1 +1,1 @@
-worker: python3 configs.py
+worker: python3 dkbotz.py
