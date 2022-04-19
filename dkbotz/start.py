@@ -24,7 +24,7 @@ async def start_(client: Client, message: Message):
             [[
             InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📢 Bot Channel', url='http://t.me/DKBOTZ'),
+            InlineKeyboardButton('📢 Bot Channel', url='http://t.me/Tellybots'),
             InlineKeyboardButton('💼 Support Group', url=f'http://t.me/{Config.SUPPORT_GROUP}')
             ],[
             InlineKeyboardButton('🌐 Source Code 🌐', url='https://github.com/Tellybots/Media-Info-Bot')
