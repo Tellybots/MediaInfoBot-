@@ -1,1 +1,1 @@
-worker: python3 dkbotz.py
+worker: python3 media.py
